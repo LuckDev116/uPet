@@ -1,0 +1,223 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #4B4B4B;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1136px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 848px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 592px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container {
+    width: 380px;
+  }
+}
+
+.header {
+  background-color: #F0F0F0;
+}
+
+.phone-section {
+  margin: 12px 0;
+}
+
+.phone-section p{
+  font-size: 13.33px;
+  margin: 0;
+}
+
+.phone-section img {
+  margin-left: 11.02px;
+  margin-right: 11.42px
+}
+
+.flag-section p{
+  font-size: 13.33px;
+  margin: 0;
+}
+
+.flag-section img{
+  margin-right: 9.25px;
+}
+
+.section1 {
+  background-color: #F9F9F9;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+@media (min-width: 993px) { 
+  .space-right {
+    padding-right: 132px !important;    
+  }
+} 
+
+.section1 .title {
+  font-size: 39.81px;
+  margin-bottom: 36px;
+}
+
+.section1 .desc {
+  font-size: 19.2px;
+  margin-bottom: 44px;
+}
+
+.onshop {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  background-color: #02E0B1;
+  box-shadow: 0px 8px 16px rgba(219, 219, 219, 0.16);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+}
+
+
+.section2 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.section2 title {
+  font-size: 33.18px;
+}
+
+.section2 .desc {
+  padding-top: 60px;
+}
+
+.section2 .desc img {
+  padding-bottom: 12px;
+}
+
+.section2 .desc h6 {
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+.section2 .desc p {
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 429px) { 
+  .space-right-2 {
+    padding-right: 84px !important;    
+  }
+}
+
+
+.onshop-2 {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  background-color: #02E0B1;
+  box-shadow: 0px 8px 16px rgba(219, 219, 219, 0.16);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+}
+
+@media screen and (min-width: 769px) { 
+  .onshop-2 {
+    width: 33%;
+  }
+}
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #02E0B1 radial-gradient(circle, transparent 1%, #0dc099 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #0dc099;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.section3 {
+  background-color: #F9F9F9;
+  padding: 64px 0px;
+}
+
+.footer {
+  background-color: #F0F0F0;
+}
+
+.footer-section-1 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.footer-section-2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.help-section {
+  margin: 0px;
+}
+
+.help-section .title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.help-section .desc{
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.outside-section-img {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.made-section img {
+  margin-top: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.made-section p{
+  font-size: 13.33px;
+  margin: 0;
+}
+
+.policy-section {
+  margin-top: 0px;
+}
+
+.policy-section .title{
+  font-size: 13.33px;
+  text-decoration-line: underline !important;
+  margin-bottom: 8px;
+}
+
+.policy-section .desc{
+  padding: 0px;
+  margin: 0px;
+}
